@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>PS ATM</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="atm.css">
+  </head>
+  <body>
+    <div id="content">
+      <div id="nav">
+        <div id="logo"><img src="logo.png" alt="Bank of Salmon"/></div>
+        <div id="title">Bank of Salmon</div>
+      </div>
+      <div class="account" id="checkingAccount">
+        <h1>Checking</h1>
+        <div class="balance" id="balance1">$0</div>
+        <input id="checkingAmount" type="number" placeholder="enter an amount" />
+        <input id="checkingDeposit" type="button" value="Deposit" />
+        <input id="checkingWithdraw" type="button" value="Withdraw" />
+      </div>
+      <div class="account" id="savingsAccount">
+        <h1>Savings</h1>
+        <div class="balance" id="balance2">$0</div>
+        <input id="savingsAmount" type="number" placeholder="enter an amount" />
+        <input id="savingsDeposit" type="button" value="Deposit" />
+        <input id="savingsWithdraw" type="button" value="Withdraw" />
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div id"demo"></div>
+
+  </body>
+
+  <script src="js/atm.js"></script>
+</html>

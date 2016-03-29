@@ -1,0 +1,84 @@
+/*@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Ruluko);*/
+
+
+body {
+  background-image: url(gold.jpg);
+}
+#logo {
+
+/*float:left;*/
+}
+
+#title {
+
+  border: black 8px solid;
+  background-color: yellow;
+  border-radius: 5px;
+  /*clear: left;*/
+  color: black;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 50px;
+}
+
+#content {
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  /*background-color: paleTurquoise  ;*/
+}
+
+#nav {
+  margin: 50px 0;
+  /*background-color: paleTurquoise*/
+
+}
+
+#title {
+  color: #F52F4F;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 50px;
+}
+
+#checkingAccount {
+  float: left;
+
+}
+/**/
+#savingsAccount {
+  float: right;
+}
+
+.account {
+  background-color: yellow;
+  border: 8px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  /*width: 300px;
+  height: 300px;*/
+}
+
+.balance {
+  background-color: white;
+  border: 1px solid #676767;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 50px;
+  padding: 25px 0;
+  border-radius: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.zero {
+  background-color: #F52F4F;
+  color: #FFFFFF;
+}
+
+/*.img{
+  padding-top: 100px;
+  background-color: paleTurquoise;
+    border: 1px solid #295A33;
+    border-radius: 10px;
+}*/
